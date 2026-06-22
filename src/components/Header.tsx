@@ -36,7 +36,11 @@ export function Header() {
             className="nav-logo-mark rounded-2xl border border-gold/45 bg-[#06101F] flex items-center justify-center gold-glow relative overflow-hidden"
           >
             <span className="absolute inset-0 bg-gradient-to-br from-gold/20 via-transparent to-cyan-400/10 opacity-80" />
-            <img src="/nawaf-logo.png" alt="Nawaf Alsaedi logo" className="relative z-10 w-[86%] h-[86%] object-contain rounded-xl" />
+            <img
+  src="./nawaf-logo.png"
+  alt="Nawaf Alsaedi logo"
+  className="relative z-10 w-[86%] h-[86%] object-contain rounded-xl"
+/>
           </motion.div>
           <div className="leading-none">
             <div className="text-xl sm:text-2xl font-black tracking-[0.18em] text-text-main">NSA</div>
